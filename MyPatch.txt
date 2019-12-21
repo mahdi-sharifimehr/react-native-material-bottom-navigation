@@ -1,0 +1,8 @@
+for add default tab 
+
+https://github.com/timomeh/react-native-material-bottom-navigation/pull/114/files
+
+at below file:
+lib/TabList.js
+replace this line: (line56)
+activeTab: this.isControlled ? props.activeTab : props.tabs[props.defaultTabIndex || 0].key
